@@ -14,37 +14,49 @@ Infoset iOS SDK allows you to integrate [Infoset Chat](https://infoset.app) with
 
 ## Installation
 
-### Carthage
-
-If you use [Carthage](https://github.com/Carthage/Carthage) to manage your dependencies, simply add 'infoset/infoset-ios' to your `Cartfile`.
-
-```
-github "infoset/infoset-ios" ~> 1.0.1
-```
-
-Make sure you have added `Infoset.framework` to the "_Linked Frameworks and Libraries_" section of your target, and have include it in your Carthage framework copying build phase.
-
 ### CocoaPods
 
 If you use [CocoaPods](http://cocoapods.org) to manage your dependencies, simply add Infoset to your `Podfile`.
 
 ```bash
-pod 'Infoset', '~> 1.0.1'
+    target :YourTargetName do
+      pod 'Infoset'
+    end
 ```
+
+### Carthage
+
+If you use [Carthage](https://github.com/Carthage/Carthage) to manage your dependencies, simply add 'infoset/infoset-ios' to your `Cartfile`.
+
+1. Add `github "infoset/infoset-ios"` to your Cartfile.
+2. Run `carthage update`.
+3. Go to your Xcode project's "General" settings. Drag `Infoset.framework` from `Carthage/Build/iOS` to the "Embedded Binaries" section. Make sure “Copy items if needed” is selected and click Finish.
 
 ### Manual Installation
 
-You can integrate iOS chat widget into your project manually without using a dependency manager.
+You can integrate Infoset iOS SDK into your project manually without using a dependency manager.
 
-#### Swift
+1. Download [Infoset iOS SDK](https://github.com/infoset/infoset-ios/archive/master.zip) and extract the zip.
+2. Drag `Infoset.framework` into your project.
+Make sure "Copy items if needed" is selected and click Finish.
+3. In the target settings for your app, set the Infoset.framework to “Embed & Sign”. This can be found in the “Frameworks, Libraries, and Embedded Content” section of the “General” tab.
+4. Create a new "Run Script Phase" in your app’s target’s "Build Phases" and paste the following snippet in the script text field:
 
-Just drag all files from the `Infoset/Sources` directory into your project.
+```
+    bash "${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Infoset.framework/strip-frameworks.sh"
+```
 
-#### Objective-C
+This step is required to work around an [App Store submission bug](http://www.openradar.me/radar?id=6409498411401216) when archiving universal binaries.
 
-Drag all files from the `Infoset/Sources` directory into your project. When adding first `*.swift` file to Objective-C project, Xcode will ask you to create a Bridging Header. It is not necessary for chat widget to work, so you can decline unless you plan to call Swift code from Objective-C. More information about bridging headers and Swift and Objective-C interoperability can be found [here](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/BuildingCocoaApps/MixandMatch.html). You need to put the following import statement: `#import "<Your Project Name>-Swift.h"` at the top of your .m file.
+### Update Info.plist
 
-Also, for Objective-C projects, you need to set the **Embedded Content Contains Swift Code** flag in your project to `Yes` (found under **Build Options** in the **Build Settings** tab).
+If you have file sharing enabled in your Infoset chat widget, you'll need to make sure these entries exist in your `Info.plist` to avoid crashes on iOS 10 or higher:
+
+- `NSPhotoLibraryUsageDescription` (`Privacy - Photo Library Usage Description`)
+- `NSCameraUsageDescription` (`Privacy - Camera Usage Description`)
+- `NSMicrophoneUsageDescription` (`Privacy - Microphone Usage Description`)
+
+You can check `Info.plist` files in example projects.
 
 ## Usage
 
@@ -86,7 +98,7 @@ You can provide your user's details such as name and email if they are known, so
 InfosetChat.visitor = InfosetChatVisitor(id: 123, email: "example@infoset.app", firstName: "John", lastName: "Doe")
 ```
 
-See `InfosetChatVisitor.swift` for all of the user fields.
+All fields are optiona. See the `InfosetChatVisitor` class for all of the user fields.
 
 ### Assign chat to tags
 
@@ -134,23 +146,13 @@ func handle(URL: URL) {
 }
 ```
 
-### Sending files from device library
-
-If you have file sharing enabled for the visitors, you should provide usage description by including:
-
-- `NSPhotoLibraryUsageDescription` (`Privacy - Photo Library Usage Description`)
-- `NSCameraUsageDescription` (`Privacy - Camera Usage Description`)
-- `NSMicrophoneUsageDescription` (`Privacy - Microphone Usage Description`)
-
-keys in your `Info.plist` file to avoid crashes on iOS 10 or higher. You can check `Info.plist` files in example projects.
-
 ## Sample Apps
 
 Sample apps for both Swift and Objective-C can be found in the `Examples` folder.
 
 ## React Native Support
 
-We have a [React Native SDK](https://github.com/infoset/infoset-react-native) for React Native / Expo.
+We have a [React Native SDK](https://github.com/infoset/infoset-react-native) for React Native / Expo ⚛️
 
 ## Getting help
 
