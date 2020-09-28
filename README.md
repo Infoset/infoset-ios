@@ -83,6 +83,11 @@ InfosetChat.iosKey = "YOUR_WIDGET_IOS_KEY"
 InfosetChat.presentChat()
 ```
 
+Chat widget will be dismissed when the user clicks the dismiss button. You can dismiss it programmatically as well:
+```swift
+InfosetChat.dismissChat()
+```
+
 ### Using UIWindowSceneDelegate
 
 If your app is using UIWindowScene API you need to perform additional configuration steps in you window scene delegate class.
