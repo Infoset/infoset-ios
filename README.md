@@ -1,10 +1,11 @@
-# Infoset iOS SDK
-
-Infoset iOS SDK allows you to integrate [Infoset Chat](https://infoset.app) with your iOS app.
 [![CocoaPods](https://img.shields.io/badge/platforms-iOS-orange.svg?maxAge=2592000)](https://cocoapods.org/pods/Infoset)
 [![Languages](https://img.shields.io/badge/languages-OjbC%20%7C%20%20Swift-orange.svg?maxAge=2592000)](https://github.com/infoset/infoset-ios)
 [![Version](https://img.shields.io/cocoapods/v/Infoset.svg?style=flat)](http://cocoapods.org/pods/Infoset)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](#carthage)
+
+# Infoset iOS SDK
+
+Infoset iOS SDK allows you to integrate [Infoset Chat](https://infoset.app) with your iOS app.
 
 ## Requirements
 
@@ -148,7 +149,7 @@ Sample apps for both Swift and Objective-C can be found in the `Examples` folder
 
 ## React Native Support
 
-We have a [React Native SDK](https://github.com/infoset/infoset-rn) for React Native / Expo.
+We have a [React Native SDK](https://github.com/infoset/infoset-react-native) for React Native / Expo.
 
 ## Getting help
 

@@ -7,8 +7,8 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/infoset/infoset-ios'
   s.source              = { :http => "https://github.com/infoset/infoset-ios/releases/download/#{s.version}/CocoaPods.tar.gz" }
 
-  s.platform            = :ios, '10.0'
-  s.ios.deployment_target = '10.0'
+  s.platform            = :ios, '9.0'
+  s.ios.deployment_target = '9.0'
   s.preserve_paths      = 'Infoset.framework'
   s.public_header_files = 'Infoset.framework/Headers/Infoset.h', 'Infoset.framework/Headers/Infoset-Swift.h'
   s.source_files        = 'Infoset.framework/Headers/Infoset.h', 'Infoset.framework/Headers/Infoset-Swift.h'
