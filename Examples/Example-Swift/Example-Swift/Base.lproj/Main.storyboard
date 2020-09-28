@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="icW-zF-g1W">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="mbs-Fb-abA">
+            <objects>
+                <navigationController id="icW-zF-g1W" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yVW-nq-D4c">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="jqR-NS-P9E"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PdQ-GN-YN1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-906" y="44"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Example_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="OmC-OV-I0g">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bzH-Mt-2Oa">
+                                <rect key="frame" x="229" y="603" width="126" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="UAx-Se-vQC"/>
+                                    <constraint firstAttribute="width" constant="126" id="po3-yS-Nzh"/>
+                                </constraints>
+                                <state key="normal" title="Clear session">
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clearSession:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dk2-jW-0PA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="OmC-OV-I0g" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="1Bm-av-Xsc"/>
+                            <constraint firstAttribute="trailing" secondItem="OmC-OV-I0g" secondAttribute="trailing" id="1S9-7r-sgo"/>
+                            <constraint firstAttribute="trailing" secondItem="bzH-Mt-2Oa" secondAttribute="trailing" constant="20" id="OVW-ms-ZB3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="OmC-OV-I0g" secondAttribute="bottom" id="ga9-iC-wJQ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bzH-Mt-2Oa" secondAttribute="bottom" constant="20" id="lAO-Pn-jdZ"/>
+                            <constraint firstItem="OmC-OV-I0g" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="zqp-Cw-lUK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Diu-mX-Job">
+                        <barButtonItem key="rightBarButtonItem" title="Chat with us!" id="O8J-Yg-1AK">
+                            <connections>
+                                <action selector="openChat:" destination="BYZ-38-t0r" id="Aea-dM-KnP"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-95.200000000000003" y="43.628185907046479"/>
+        </scene>
+    </scenes>
+</document>

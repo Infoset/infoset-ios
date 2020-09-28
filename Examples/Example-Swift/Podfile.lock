@@ -1,0 +1,16 @@
+PODS:
+  - Infoset (1.0.0)
+
+DEPENDENCIES:
+  - Infoset (from `../../`)
+
+EXTERNAL SOURCES:
+  Infoset:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  Infoset: 69381cad05c7b962fc274b8c22f5b88b2c79f735
+
+PODFILE CHECKSUM: 02f37edc8d272c2f70e9b1cf7ee3c9f19e0c2c06
+
+COCOAPODS: 1.5.3

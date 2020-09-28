@@ -1,0 +1,6 @@
+framework module Infoset {
+  umbrella header "Infoset-umbrella.h"
+
+  export *
+  module * { export * }
+}
