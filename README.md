@@ -3,6 +3,8 @@
 [![Version](https://img.shields.io/cocoapods/v/Infoset.svg?style=flat)](http://cocoapods.org/pods/Infoset)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](#carthage)
 
+<img src="https://user-images.githubusercontent.com/13895224/94475996-8de39c80-01d8-11eb-8771-e590b33c612e.png" alt="Infoset" width="340" />
+
 # Infoset iOS SDK
 
 Infoset iOS SDK allows you to integrate [Infoset Chat](https://infoset.app) with your iOS app.
@@ -37,9 +39,15 @@ If you use [Carthage](https://github.com/Carthage/Carthage) to manage your depen
 You can integrate Infoset iOS SDK into your project manually without using a dependency manager.
 
 1. Download [Infoset iOS SDK](https://github.com/infoset/infoset-ios/archive/master.zip) and extract the zip.
-2. Drag `Infoset.framework` into your project.
-Make sure "Copy items if needed" is selected and click Finish.
+2. Drag `Infoset.framework` into your project.  
+<img width="255" alt="" src="https://user-images.githubusercontent.com/13895224/94475518-d9e21180-01d7-11eb-8820-00123839d275.png">
+
+Make sure "Copy items if needed" is selected and click Finish.  
+<img width="600" alt="" src="https://user-images.githubusercontent.com/13895224/94475576-f0886880-01d7-11eb-95b9-ae6b9a708660.png">
+
 3. In the target settings for your app, set the Infoset.framework to “Embed & Sign”. This can be found in the “Frameworks, Libraries, and Embedded Content” section of the “General” tab.
+<img width="600" alt="" src="https://user-images.githubusercontent.com/13895224/94476104-afdd1f00-01d8-11eb-8503-a07275754054.png">
+
 4. Create a new "Run Script Phase" in your app’s target’s "Build Phases" and paste the following snippet in the script text field:
 
 ```
