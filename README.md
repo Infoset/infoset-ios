@@ -1,11 +1,10 @@
 # Infoset iOS SDK
 
 Infoset iOS SDK allows you to integrate [Infoset Chat](https://infoset.app) with your iOS app.
-
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](#carthage)
+[![CocoaPods](https://img.shields.io/badge/platforms-iOS-orange.svg?maxAge=2592000)](https://cocoapods.org/pods/Infoset)
+[![Languages](https://img.shields.io/badge/languages-OjbC%20%7C%20%20Swift-orange.svg?maxAge=2592000)](https://github.com/infoset/infoset-ios)
 [![Version](https://img.shields.io/cocoapods/v/Infoset.svg?style=flat)](http://cocoapods.org/pods/Infoset)
-[![License](https://img.shields.io/cocoapods/l/Infoset.svg?style=flat)](http://cocoapods.org/pods/Infoset)
-[![Platform](https://img.shields.io/cocoapods/p/Infoset.svg?style=flat)](http://cocoapods.org/pods/Infoset)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](#carthage)
 
 ## Requirements
 
