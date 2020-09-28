@@ -1,29 +1,37 @@
 {
   "name": "Infoset",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "Infoset iOS SDK, for integrating Infoset products such as live chat and tickets to your iOS app.",
-  "homepage": "https://github.com/infoset/infoset-ios",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
   "authors": {
     "Samed Düzçay": "samed@infoset.app"
   },
+  "license": {
+    "type": "./LICENSE",
+    "file": "LICENSE"
+  },
+  "homepage": "https://github.com/infoset/infoset-ios",
   "source": {
     "git": "https://github.com/infoset/infoset-ios.git",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "Sources/*.{swift}",
-  "resources": "Sources/*.{js}",
+  "preserve_paths": "Infoset.framework",
+  "public_header_files": [
+    "Infoset.framework/Headers/Infoset.h",
+    "Infoset.framework/Headers/Infoset-Swift.h"
+  ],
+  "source_files": [
+    "Infoset.framework/Headers/Infoset.h",
+    "Infoset.framework/Headers/Infoset-Swift.h"
+  ],
+  "vendored_frameworks": "Infoset.framework",
   "frameworks": [
     "UIKit",
-    "WebKit"
+    "WebKit",
+    "Foundation"
   ],
-  "xcconfig": {
-    "SWIFT_VERSION": "4.0"
-  }
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
 }

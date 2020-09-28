@@ -3,7 +3,13 @@ This application makes use of the following third party libraries:
 
 ## Infoset
 
-Copyright (c) 2020 Samed Düzçay <samed@infoset.app>
+Copyright (c) 2020 İnfoset Teknoloji A.Ş. All rights reserved.
+
+---
+
+This software uses substantial part of the software published on https://github.com/livechat/chat-window-ios, which is released under the following license:
+
+Copyright (c) 2017 Łukasz Jerciński <l.jercinski@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

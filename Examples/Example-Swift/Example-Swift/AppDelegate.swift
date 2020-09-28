@@ -16,8 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, InfosetChatDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        InfosetChat.apiKey = "pFz6QIAxs8Gmf56R8u4kYNwo1apWCNTrN5YJSET0" // Set your API key
-        InfosetChat.iosKey = "123" // Set your API key
+        InfosetChat.apiKey = "your_api_key" // Set your API key
+        InfosetChat.iosKey = "your_ios_key" // Set your iOS key
         
         InfosetChat.delegate = self
         

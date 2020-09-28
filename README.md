@@ -19,7 +19,7 @@ Infoset iOS SDK allows you to integrate [Infoset Chat](https://infoset.app) with
 If you use [Carthage](https://github.com/Carthage/Carthage) to manage your dependencies, simply add 'infoset/infoset-ios' to your `Cartfile`.
 
 ```
-github "infoset/infoset-ios" ~> 1.0.0
+github "infoset/infoset-ios" ~> 1.0.1
 ```
 
 Make sure you have added `Infoset.framework` to the "_Linked Frameworks and Libraries_" section of your target, and have include it in your Carthage framework copying build phase.
@@ -29,7 +29,7 @@ Make sure you have added `Infoset.framework` to the "_Linked Frameworks and Libr
 If you use [CocoaPods](http://cocoapods.org) to manage your dependencies, simply add Infoset to your `Podfile`.
 
 ```bash
-pod 'Infoset', '~> 1.0.0'
+pod 'Infoset', '~> 1.0.1'
 ```
 
 ### Manual Installation
@@ -64,6 +64,7 @@ InfosetChat.presentChat()
 ```
 
 ### Using UIWindowSceneDelegate
+
 If your app is using UIWindowScene API you need to perform additional configuration steps in you window scene delegate class.
 
 ```swift
@@ -107,18 +108,18 @@ You can subscribe to incoming messages and notify the user even if the chat wind
 
 ```swift
 class YOUR_CLASS_NAME : InfosetChatDelegate { // Your class need to implement InfosetChatDelegate protocol
-	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-		InfosetChat.apiKey = "YOUR_WIDGET_API_KEY"
+  func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    InfosetChat.apiKey = "YOUR_WIDGET_API_KEY"
     InfosetChat.iosKey = "YOUR_WIDGET_IOS_KEY"
-		InfosetChat.delegate = self // Set self as delegate
+    InfosetChat.delegate = self // Set self as delegate
 
-		return true
-	}
+    return true
+  }
 
-	func received(message: InfosetChatMessage) {
-		print("Received message: \(message.text)")
-		// Handle message here
-	}
+  func received(message: InfosetChatMessage) {
+    print("Received message: \(message.text)")
+    // Handle message here
+  }
 }
 ```
 
@@ -128,8 +129,8 @@ By default, all links in chat messages are opened in Safari. To change this beha
 
 ```swift
 func handle(URL: URL) {
-	print("URL is \(URL.absoluteString)")
-	// Handle URL here
+  print("URL is \(URL.absoluteString)")
+  // Handle URL here
 }
 ```
 

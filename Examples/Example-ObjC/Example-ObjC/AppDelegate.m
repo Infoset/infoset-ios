@@ -17,8 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    InfosetChat.apiKey = @"pFz6QIAxs8Gmf56R8u4kYNwo1apWCNTrN5YJSET0"; // Set api key
-    InfosetChat.iosKey = "123" // Set your API key
+    InfosetChat.apiKey = @"your_api_key"; // Set your API key
+    InfosetChat.iosKey = @"ios_key"; // Set your iOS key
     
     InfosetChat.delegate = self;
     
@@ -30,7 +30,7 @@
 - (void)receivedWithMessage:(InfosetChatMessage *)message {
     if (!InfosetChat.isChatPresented) {
         // Notifying user
-        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Support" message:message.text preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Support" message:message.message preferredStyle:UIAlertControllerStyleAlert];
         UIAlertAction *chatAction = [UIAlertAction actionWithTitle:@"Go to Chat" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
             // Presenting chat if not presented:
             if (!InfosetChat.isChatPresented) {
