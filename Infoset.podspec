@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.authors           = { 'Samed Düzçay' => 'samed@infoset.app' }
   s.license          = { :type => "./LICENSE", :file => 'LICENSE' }
   s.homepage         = 'https://github.com/infoset/infoset-ios'
-  s.source              = { :http => "https://github.com/infoset/infoset-ios/releases/download/#{s.version}/CocoaPods.tar.gz" }
+  s.source           = { :git => 'https://github.com/infoset/infoset-ios.git', :tag => s.version.to_s }
 
   s.platform            = :ios, '9.0'
   s.ios.deployment_target = '9.0'
