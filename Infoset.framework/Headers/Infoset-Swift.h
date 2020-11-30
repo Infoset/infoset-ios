@@ -285,6 +285,7 @@ SWIFT_CLASS("_TtC7Infoset18InfosetChatVisitor")
 @property (nonatomic, readonly, copy) NSString * _Nullable userHash;
 @property (nonatomic, readonly, copy) NSString * _Nullable createdAt;
 @property (nonatomic, readonly, copy) NSString * _Nullable company;
+- (nonnull instancetype)initWithId:(NSNumber * _Nullable)id firstName:(NSString * _Nullable)firstName lastName:(NSString * _Nullable)lastName email:(NSString * _Nullable)email phone:(NSString * _Nullable)phone photoUrl:(NSString * _Nullable)photoUrl userHash:(NSString * _Nullable)userHash createdAt:(NSString * _Nullable)createdAt company:(NSString * _Nullable)company OBJC_DESIGNATED_INITIALIZER SWIFT_DEPRECATED_OBJC("Swift initializer 'InfosetChatVisitor.init(id:firstName:lastName:email:phone:photoUrl:userHash:createdAt:company:)' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end

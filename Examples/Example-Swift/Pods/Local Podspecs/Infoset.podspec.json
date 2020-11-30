@@ -1,6 +1,6 @@
 {
   "name": "Infoset",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "summary": "Infoset iOS SDK, for integrating Infoset products such as live chat and tickets to your iOS app.",
   "authors": {
     "Samed Düzçay": "samed@infoset.app"
@@ -12,7 +12,7 @@
   "homepage": "https://github.com/infoset/infoset-ios",
   "source": {
     "git": "https://github.com/infoset/infoset-ios.git",
-    "tag": "1.0.1"
+    "tag": "1.0.2"
   },
   "platforms": {
     "ios": "9.0"

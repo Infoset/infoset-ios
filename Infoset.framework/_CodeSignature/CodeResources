@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Infoset-Swift.h</key>
 		<data>
-		r7TiO+hi6lOwoL9jOxWMTUHw8dU=
+		N5oJ1vCwGDwV9yCYqwBTgAXJJIE=
 		</data>
 		<key>Headers/Infoset.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		tTjWqXRmPpap7piitWrEqqk+5qE=
+		U8noa//gfSQHyE6NKe/fUptJ6qw=
 		</data>
 		<key>InfosetChatWidget.js</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/Infoset.swiftmodule/arm.swiftmodule</key>
 		<data>
-		ZugBMqaPygFEJt+JR3b/MI3q/NY=
+		cwH+5b6qsRFl+0KSBpWHhe7HVZ4=
 		</data>
 		<key>Modules/Infoset.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/Infoset.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		BzSoE40LtrlGd16EFG7zJAdHMdY=
+		15DaSp6NBJkqWq5eRUnLPjuB7N0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,11 +55,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			r7TiO+hi6lOwoL9jOxWMTUHw8dU=
+			N5oJ1vCwGDwV9yCYqwBTgAXJJIE=
 			</data>
 			<key>hash2</key>
 			<data>
-			/f5OsTqkHfmBA2l1lLhFDfEuC8TAvBO+2Numg4iS16I=
+			Re/3uat6v+xs6nz/kplADjqoH7dE4o0xOYR6gZkBzaI=
 			</data>
 		</dict>
 		<key>Headers/Infoset.h</key>
@@ -99,11 +99,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZugBMqaPygFEJt+JR3b/MI3q/NY=
+			cwH+5b6qsRFl+0KSBpWHhe7HVZ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			zTa4z4Sc94ALlfug+ssAUNE0kFZV1PALeN07W6xbAEU=
+			ghavLR6TNGELw30pm0JdKw5LgO0s0xbll6LshhHhP+0=
 			</data>
 		</dict>
 		<key>Modules/Infoset.swiftmodule/arm64.swiftdoc</key>
@@ -121,11 +121,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BzSoE40LtrlGd16EFG7zJAdHMdY=
+			15DaSp6NBJkqWq5eRUnLPjuB7N0=
 			</data>
 			<key>hash2</key>
 			<data>
-			X03SbFXKjBGt4W52VzaKm9Zm5q3D/hUM78QaQMj2nkc=
+			s8ubBieC40ZKnu5LVHCrsjjvE+9xwmPiaNJ4les/6Wg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
