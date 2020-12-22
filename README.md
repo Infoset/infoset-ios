@@ -27,35 +27,27 @@ If you use [CocoaPods](http://cocoapods.org) to manage your dependencies, simply
     end
 ```
 
-### Carthage
+<!-- ### Carthage
 
 If you use [Carthage](https://github.com/Carthage/Carthage) to manage your dependencies, simply add 'infoset/infoset-ios' to your `Cartfile`.
 
 1. Add `github "infoset/infoset-ios"` to your Cartfile.
 2. Run `carthage update`.
-3. Go to your Xcode project's "General" settings. Drag `Infoset.framework` from `Carthage/Build/iOS` to the "Embedded Binaries" section. Make sure “Copy items if needed” is selected and click Finish.
+3. Go to your Xcode project's "General" settings. Drag `Infoset.framework` from `Carthage/Build/iOS` to the "Embedded Binaries" section. Make sure “Copy items if needed” is selected and click Finish. -->
 
 ### Manual Installation
 
 You can integrate Infoset iOS SDK into your project manually without using a dependency manager.
 
 1. Download [Infoset iOS SDK](https://github.com/infoset/infoset-ios/archive/master.zip) and extract the zip.
-2. Drag `Infoset.framework` into your project.  
+2. Drag `Infoset.xcframework` into your project.  
 <img width="255" alt="" src="https://user-images.githubusercontent.com/13895224/94475518-d9e21180-01d7-11eb-8820-00123839d275.png">
 
 Make sure "Copy items if needed" is selected and click Finish.  
 <img width="600" alt="" src="https://user-images.githubusercontent.com/13895224/94475576-f0886880-01d7-11eb-95b9-ae6b9a708660.png">
 
-3. In the target settings for your app, set the Infoset.framework to “Embed & Sign”. This can be found in the “Frameworks, Libraries, and Embedded Content” section of the “General” tab.
+3. In the target settings for your app, set the Infoset.xcframework to “Embed & Sign”. This can be found in the “Frameworks, Libraries, and Embedded Content” section of the “General” tab.
 <img width="600" alt="" src="https://user-images.githubusercontent.com/13895224/94476104-afdd1f00-01d8-11eb-8503-a07275754054.png">
-
-4. Create a new "Run Script Phase" in your app’s target’s "Build Phases" and paste the following snippet in the script text field:
-
-```
-    bash "${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Infoset.framework/strip-frameworks.sh"
-```
-
-This step is required to work around an [App Store submission bug](http://www.openradar.me/radar?id=6409498411401216) when archiving universal binaries.
 
 ### Update Info.plist
 
