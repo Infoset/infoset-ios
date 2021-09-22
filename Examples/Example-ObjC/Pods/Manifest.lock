@@ -1,5 +1,5 @@
 PODS:
-  - Infoset (1.0.4)
+  - Infoset (1.1.0)
 
 DEPENDENCIES:
   - Infoset (from `../../`)

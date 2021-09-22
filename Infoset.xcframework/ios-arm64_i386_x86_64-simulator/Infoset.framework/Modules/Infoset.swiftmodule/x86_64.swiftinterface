@@ -1,11 +1,12 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
 // swift-module-flags: -target x86_64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Infoset
 import Foundation
 @_exported import Infoset
 import Swift
 import UIKit
 import WebKit
+import _Concurrency
 @objc @_hasMissingDesignatedInitializers public class InfosetChatMessage : ObjectiveC.NSObject {
   @objc final public let id: Swift.String
   @objc final public let message: Swift.String
@@ -14,10 +15,9 @@ import WebKit
   @objc final public let authorPhoto: Swift.String
   @objc final public let rawMessage: Foundation.NSDictionary
   @objc deinit
-  @objc override dynamic public init()
 }
-extension UIImage {
-  @objc convenience dynamic public init?(color: UIKit.UIColor, size: CoreGraphics.CGSize = CGSize(width: 1, height: 1))
+extension UIKit.UIImage {
+  convenience public init?(color: UIKit.UIColor, size: CoreGraphics.CGSize = CGSize(width: 1, height: 1))
 }
 @objc public protocol InfosetChatDelegate : ObjectiveC.NSObjectProtocol {
   @objc optional func received(message: Infoset.InfosetChatMessage)
@@ -62,11 +62,11 @@ extension UIImage {
   @objc public class func presentChat(animated: Swift.Bool = true, completion: ((Swift.Bool) -> Swift.Void)? = nil)
   @objc public class func dismissChat(animated: Swift.Bool = true, completion: ((Swift.Bool) -> Swift.Void)? = nil)
   @objc public class func clearSession()
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc public class InfosetChatVisitor : ObjectiveC.NSObject {
-  @objc final public let id: Foundation.NSNumber?
+  @objc final public let id: Swift.String?
   @objc final public let firstName: Swift.String?
   @objc final public let lastName: Swift.String?
   @objc final public let email: Swift.String?
@@ -75,7 +75,6 @@ extension UIImage {
   @objc final public let userHash: Swift.String?
   @objc final public let createdAt: Swift.String?
   @objc final public let company: Swift.String?
-  @objc public init(id: Foundation.NSNumber?, firstName: Swift.String? = "", lastName: Swift.String? = "", email: Swift.String? = "", phone: Swift.String? = "", photoUrl: Swift.String? = "", userHash: Swift.String? = "", createdAt: Swift.String? = "", company: Swift.String? = "")
+  @objc public init(id: Swift.String?, firstName: Swift.String? = "", lastName: Swift.String? = "", email: Swift.String? = "", phone: Swift.String? = "", photoUrl: Swift.String? = "", userHash: Swift.String? = "", createdAt: Swift.String? = "", company: Swift.String? = "")
   @objc deinit
-  @objc override dynamic public init()
 }

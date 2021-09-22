@@ -33,7 +33,7 @@ If you use [Carthage](https://github.com/Carthage/Carthage) to manage your depen
 
 1. Add `github "infoset/infoset-ios"` to your Cartfile.
 2. Run `carthage update`.
-3. Go to your Xcode project's "General" settings. Drag `Infoset.framework` from `Carthage/Build/iOS` to the "Embedded Binaries" section. Make sure “Copy items if needed” is selected and click Finish. -->
+3. Go to your Xcode project's "General" settings. Drag `Infoset.xcframework` from `Carthage/Build/iOS` to the "Embedded Binaries" section. Make sure “Copy items if needed” is selected and click Finish.
 
 ### Manual Installation
 
@@ -48,6 +48,14 @@ Make sure "Copy items if needed" is selected and click Finish.
 
 3. In the target settings for your app, set the Infoset.xcframework to “Embed & Sign”. This can be found in the “Frameworks, Libraries, and Embedded Content” section of the “General” tab.
 <img width="600" alt="" src="https://user-images.githubusercontent.com/13895224/94476104-afdd1f00-01d8-11eb-8503-a07275754054.png">
+
+4. Create a new "Run Script Phase" in your app’s target’s "Build Phases" and paste the following snippet in the script text field:
+
+```
+    bash "${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Infoset.xcframework/strip-frameworks.sh"
+```
+
+This step is required to work around an [App Store submission bug](http://www.openradar.me/radar?id=6409498411401216) when archiving universal binaries.
 
 ### Update Info.plist
 

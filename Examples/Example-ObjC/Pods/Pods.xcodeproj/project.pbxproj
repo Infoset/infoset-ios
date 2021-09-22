@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -16,6 +16,7 @@
 			dependencies = (
 			);
 			name = Infoset;
+			productName = Infoset;
 		};
 /* End PBXAggregateTarget section */
 
@@ -23,6 +24,7 @@
 		30E3E9A901CB2BA91875A21C5EBB0676 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		432D6396521EA36821F24ABC59600394 /* Pods-Example-ObjC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAAEB09F5EEEC6CDF554315123587ACB /* Pods-Example-ObjC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		990B27F18E52CB3B5731BF77AA35F4A5 /* Pods-Example-ObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC00DC5E8FAFCE732A51796D05D2E425 /* Pods-Example-ObjC-dummy.m */; };
+		B914166C26FBD5CD009CA62C /* Infoset.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B914166B26FBD5CD009CA62C /* Infoset.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,23 +38,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1295F4112FD9B13FB91F6A4FC9D0CF87 /* Infoset.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Infoset.debug.xcconfig; sourceTree = "<group>"; };
-		16093F5E4917BF6F7BA705BC0B777B84 /* Infoset-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Infoset-xcframeworks.sh"; sourceTree = "<group>"; };
-		240BB07EEFBC9940ED5D49A1D5DF4B82 /* Pods_Example_ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example_ObjC.framework; path = "Pods-Example-ObjC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		240BB07EEFBC9940ED5D49A1D5DF4B82 /* Pods_Example_ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example_ObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30FA371993EDA1BC0574E082DCCFF197 /* Pods-Example-ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example-ObjC.debug.xcconfig"; sourceTree = "<group>"; };
 		37DEBACBECBCE27F910D49C71288681D /* Pods-Example-ObjC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-ObjC-frameworks.sh"; sourceTree = "<group>"; };
 		438741D4D740459639A4CBCA72FAD1FF /* Pods-Example-ObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example-ObjC.release.xcconfig"; sourceTree = "<group>"; };
-		4428CE17B1EB2F0E9357C929DC4FBA80 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		6782867CC2013564F4760C2B5F12AC92 /* Infoset.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Infoset.release.xcconfig; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8E43184003254FE053E57C0794D34B78 /* Infoset.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = Infoset.xcframework; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B2C2E0D8E6133C728252F595D138D38B /* Pods-Example-ObjC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-ObjC-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B914166B26FBD5CD009CA62C /* Infoset.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Infoset.xcframework; path = ../../../Infoset.xcframework; sourceTree = "<group>"; };
 		CAAEB09F5EEEC6CDF554315123587ACB /* Pods-Example-ObjC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-ObjC-umbrella.h"; sourceTree = "<group>"; };
 		CC00DC5E8FAFCE732A51796D05D2E425 /* Pods-Example-ObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-ObjC-dummy.m"; sourceTree = "<group>"; };
 		D122498C5F5863FAA03542AACA63536E /* Pods-Example-ObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example-ObjC.modulemap"; sourceTree = "<group>"; };
-		D52D7C19BAAFB35AC6072D80F5C28CB1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		DE45C3BFC93E9C176DB986DDE81EAB7D /* Infoset.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Infoset.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DF3D2E68950271785DCE3B0E6A5AFC4F /* Pods-Example-ObjC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-ObjC-Info.plist"; sourceTree = "<group>"; };
 		FD5B7E0F465672E760FFF33503FCF064 /* Pods-Example-ObjC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-ObjC-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,7 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30E3E9A901CB2BA91875A21C5EBB0676 /* Foundation.framework in Frameworks */,
+				B914166C26FBD5CD009CA62C /* Infoset.xcframework in Frameworks */,
+				63735C616A28AA118F3E628473C0108C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,9 +87,7 @@
 		559D68ECAC0E33171DD8112D853D7A17 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				DE45C3BFC93E9C176DB986DDE81EAB7D /* Infoset.podspec */,
-				D52D7C19BAAFB35AC6072D80F5C28CB1 /* LICENSE */,
-				4428CE17B1EB2F0E9357C929DC4FBA80 /* README.md */,
+				B914166B26FBD5CD009CA62C /* Infoset.xcframework */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -106,23 +100,7 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		9EF6789256DA1C3592452BDE3B25276C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8E43184003254FE053E57C0794D34B78 /* Infoset.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A509F3EC001C9488EFEE246CD627DCFE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				240BB07EEFBC9940ED5D49A1D5DF4B82 /* Pods_Example_ObjC.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C054C9D56BBD3FD02B31F7B77AAA1364 /* Development Pods */ = {
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				DC5F51F3C2DFB2B4983C5A280FF96670 /* Infoset */,
@@ -164,17 +142,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DC5F51F3C2DFB2B4983C5A280FF96670 /* Infoset */ = {
-			isa = PBXGroup;
-			children = (
-				9EF6789256DA1C3592452BDE3B25276C /* Frameworks */,
-				559D68ECAC0E33171DD8112D853D7A17 /* Pod */,
-				107DBA2FD3CF5296BA842B7B0ED733D3 /* Support Files */,
-			);
-			name = Infoset;
-			path = ../../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,8 +273,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Example-ObjC/Pods-Example-ObjC-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Example-ObjC/Pods-Example-ObjC.modulemap";
 				OTHER_LDFLAGS = "";
@@ -497,8 +468,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Example-ObjC/Pods-Example-ObjC-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Example-ObjC/Pods-Example-ObjC.modulemap";
 				OTHER_LDFLAGS = "";
@@ -511,6 +486,37 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B1385DA7C40CFFED112668679EAEC9D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8D922CB8A2876525A1A6B8178F5B20F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
