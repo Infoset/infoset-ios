@@ -27,7 +27,7 @@ If you use [CocoaPods](http://cocoapods.org) to manage your dependencies, simply
     end
 ```
 
-<!-- ### Carthage
+### Carthage
 
 If you use [Carthage](https://github.com/Carthage/Carthage) to manage your dependencies, simply add 'infoset/infoset-ios' to your `Cartfile`.
 
