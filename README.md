@@ -12,7 +12,7 @@ Infoset iOS SDK allows you to integrate [Infoset Chat](https://infoset.app) with
 
 ## Requirements
 
-- iOS 9.0+
+- iOS 10.0+
 - Xcode 8.0+
 
 ## Installation
