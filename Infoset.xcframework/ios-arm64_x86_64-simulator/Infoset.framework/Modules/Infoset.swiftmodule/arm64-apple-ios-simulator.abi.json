@@ -1,0 +1,3342 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Infoset",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Infoset",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InfosetChatMessage",
+        "printedName": "InfosetChatMessage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChatMessage(py)id",
+            "mangledName": "$s7Infoset0A11ChatMessageC2idSSvp",
+            "moduleName": "Infoset",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChatMessage(im)id",
+                "mangledName": "$s7Infoset0A11ChatMessageC2idSSvg",
+                "moduleName": "Infoset",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChatMessage(py)message",
+            "mangledName": "$s7Infoset0A11ChatMessageC7messageSSvp",
+            "moduleName": "Infoset",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChatMessage(im)message",
+                "mangledName": "$s7Infoset0A11ChatMessageC7messageSSvg",
+                "moduleName": "Infoset",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "date",
+            "printedName": "date",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChatMessage(py)date",
+            "mangledName": "$s7Infoset0A11ChatMessageC4date10Foundation4DateVvp",
+            "moduleName": "Infoset",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChatMessage(im)date",
+                "mangledName": "$s7Infoset0A11ChatMessageC4date10Foundation4DateVvg",
+                "moduleName": "Infoset",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "authorName",
+            "printedName": "authorName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChatMessage(py)authorName",
+            "mangledName": "$s7Infoset0A11ChatMessageC10authorNameSSvp",
+            "moduleName": "Infoset",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChatMessage(im)authorName",
+                "mangledName": "$s7Infoset0A11ChatMessageC10authorNameSSvg",
+                "moduleName": "Infoset",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "authorPhoto",
+            "printedName": "authorPhoto",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChatMessage(py)authorPhoto",
+            "mangledName": "$s7Infoset0A11ChatMessageC11authorPhotoSSvp",
+            "moduleName": "Infoset",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChatMessage(im)authorPhoto",
+                "mangledName": "$s7Infoset0A11ChatMessageC11authorPhotoSSvg",
+                "moduleName": "Infoset",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rawMessage",
+            "printedName": "rawMessage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSDictionary",
+                "printedName": "Foundation.NSDictionary",
+                "usr": "c:objc(cs)NSDictionary"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChatMessage(py)rawMessage",
+            "mangledName": "$s7Infoset0A11ChatMessageC03rawC0So12NSDictionaryCvp",
+            "moduleName": "Infoset",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDictionary",
+                    "printedName": "Foundation.NSDictionary",
+                    "usr": "c:objc(cs)NSDictionary"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChatMessage(im)rawMessage",
+                "mangledName": "$s7Infoset0A11ChatMessageC03rawC0So12NSDictionaryCvg",
+                "moduleName": "Infoset",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InfosetChatMessage",
+                "printedName": "Infoset.InfosetChatMessage",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChatMessage"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChatMessage(im)init",
+            "mangledName": "$s7Infoset0A11ChatMessageCACycfc",
+            "moduleName": "Infoset",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Infoset@objc(cs)InfosetChatMessage",
+        "mangledName": "$s7Infoset0A11ChatMessageC",
+        "moduleName": "Infoset",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Infoset",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Infoset"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Infoset"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Infoset",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Infoset"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Infoset",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Infoset"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Infoset",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Infoset",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Infoset"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Infoset",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Infoset",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Infoset"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InfosetChatDelegate",
+        "printedName": "InfosetChatDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "received",
+            "printedName": "received(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InfosetChatMessage",
+                "printedName": "Infoset.InfosetChatMessage",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChatMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Infoset@objc(pl)InfosetChatDelegate(im)receivedWithMessage:",
+            "mangledName": "$s7Infoset0A12ChatDelegateP8received7messageyAA0aB7MessageC_tF",
+            "moduleName": "Infoset",
+            "genericSig": "<τ_0_0 where τ_0_0 : Infoset.InfosetChatDelegate>",
+            "sugared_genericSig": "<Self where Self : Infoset.InfosetChatDelegate>",
+            "protocolReq": true,
+            "objc_name": "receivedWithMessage:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(URL:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Infoset@objc(pl)InfosetChatDelegate(im)handleWithURL:",
+            "mangledName": "$s7Infoset0A12ChatDelegateP6handle3URLy10FoundationAEV_tF",
+            "moduleName": "Infoset",
+            "genericSig": "<τ_0_0 where τ_0_0 : Infoset.InfosetChatDelegate>",
+            "sugared_genericSig": "<Self where Self : Infoset.InfosetChatDelegate>",
+            "protocolReq": true,
+            "objc_name": "handleWithURL:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "roomOpened",
+            "printedName": "roomOpened(roomId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Infoset@objc(pl)InfosetChatDelegate(im)roomOpenedWithRoomId:",
+            "mangledName": "$s7Infoset0A12ChatDelegateP10roomOpened0D2Idys5Int64V_tF",
+            "moduleName": "Infoset",
+            "genericSig": "<τ_0_0 where τ_0_0 : Infoset.InfosetChatDelegate>",
+            "sugared_genericSig": "<Self where Self : Infoset.InfosetChatDelegate>",
+            "protocolReq": true,
+            "objc_name": "roomOpenedWithRoomId:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "roomClosed",
+            "printedName": "roomClosed(roomId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Infoset@objc(pl)InfosetChatDelegate(im)roomClosedWithRoomId:",
+            "mangledName": "$s7Infoset0A12ChatDelegateP10roomClosed0D2Idys5Int64V_tF",
+            "moduleName": "Infoset",
+            "genericSig": "<τ_0_0 where τ_0_0 : Infoset.InfosetChatDelegate>",
+            "sugared_genericSig": "<Self where Self : Infoset.InfosetChatDelegate>",
+            "protocolReq": true,
+            "objc_name": "roomClosedWithRoomId:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "roomReopened",
+            "printedName": "roomReopened(roomId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Infoset@objc(pl)InfosetChatDelegate(im)roomReopenedWithRoomId:",
+            "mangledName": "$s7Infoset0A12ChatDelegateP12roomReopened0D2Idys5Int64V_tF",
+            "moduleName": "Infoset",
+            "genericSig": "<τ_0_0 where τ_0_0 : Infoset.InfosetChatDelegate>",
+            "sugared_genericSig": "<Self where Self : Infoset.InfosetChatDelegate>",
+            "protocolReq": true,
+            "objc_name": "roomReopenedWithRoomId:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "chatPresented",
+            "printedName": "chatPresented()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Infoset@objc(pl)InfosetChatDelegate(im)chatPresented",
+            "mangledName": "$s7Infoset0A12ChatDelegateP13chatPresentedyyF",
+            "moduleName": "Infoset",
+            "genericSig": "<τ_0_0 where τ_0_0 : Infoset.InfosetChatDelegate>",
+            "sugared_genericSig": "<Self where Self : Infoset.InfosetChatDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "chatDismissed",
+            "printedName": "chatDismissed()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Infoset@objc(pl)InfosetChatDelegate(im)chatDismissed",
+            "mangledName": "$s7Infoset0A12ChatDelegateP13chatDismissedyyF",
+            "moduleName": "Infoset",
+            "genericSig": "<τ_0_0 where τ_0_0 : Infoset.InfosetChatDelegate>",
+            "sugared_genericSig": "<Self where Self : Infoset.InfosetChatDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "supportedInterfaceOrientations",
+            "printedName": "supportedInterfaceOrientations()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Infoset@objc(pl)InfosetChatDelegate(im)supportedInterfaceOrientations",
+            "mangledName": "$s7Infoset0A12ChatDelegateP30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVyF",
+            "moduleName": "Infoset",
+            "genericSig": "<τ_0_0 where τ_0_0 : Infoset.InfosetChatDelegate>",
+            "sugared_genericSig": "<Self where Self : Infoset.InfosetChatDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@Infoset@objc(pl)InfosetChatDelegate",
+        "mangledName": "$s7Infoset0A12ChatDelegateP",
+        "moduleName": "Infoset",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InfosetChat",
+        "printedName": "InfosetChat",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "windowScene",
+            "printedName": "windowScene",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIWindowScene?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIWindowScene",
+                    "printedName": "UIKit.UIWindowScene",
+                    "usr": "c:objc(cs)UIWindowScene"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChat(cpy)windowScene",
+            "mangledName": "$s7Infoset0A4ChatC11windowSceneSo08UIWindowD0CSgvpZ",
+            "moduleName": "Infoset",
+            "static": true,
+            "intro_iOS": "13.0",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "Available"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIWindowScene?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIWindowScene",
+                        "printedName": "UIKit.UIWindowScene",
+                        "usr": "c:objc(cs)UIWindowScene"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChat(cm)windowScene",
+                "mangledName": "$s7Infoset0A4ChatC11windowSceneSo08UIWindowD0CSgvgZ",
+                "moduleName": "Infoset",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIWindowScene?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIWindowScene",
+                        "printedName": "UIKit.UIWindowScene",
+                        "usr": "c:objc(cs)UIWindowScene"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChat(cm)setWindowScene:",
+                "mangledName": "$s7Infoset0A4ChatC11windowSceneSo08UIWindowD0CSgvsZ",
+                "moduleName": "Infoset",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Infoset0A4ChatC11windowSceneSo08UIWindowD0CSgvMZ",
+                "mangledName": "$s7Infoset0A4ChatC11windowSceneSo08UIWindowD0CSgvMZ",
+                "moduleName": "Infoset",
+                "static": true,
+                "implicit": true,
+                "intro_iOS": "13.0",
+                "declAttributes": [
+                  "Final",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "apiKey",
+            "printedName": "apiKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChat(cpy)apiKey",
+            "mangledName": "$s7Infoset0A4ChatC6apiKeySSSgvpZ",
+            "moduleName": "Infoset",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChat(cm)apiKey",
+                "mangledName": "$s7Infoset0A4ChatC6apiKeySSSgvgZ",
+                "moduleName": "Infoset",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChat(cm)setApiKey:",
+                "mangledName": "$s7Infoset0A4ChatC6apiKeySSSgvsZ",
+                "moduleName": "Infoset",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Infoset0A4ChatC6apiKeySSSgvMZ",
+                "mangledName": "$s7Infoset0A4ChatC6apiKeySSSgvMZ",
+                "moduleName": "Infoset",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "iosKey",
+            "printedName": "iosKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChat(cpy)iosKey",
+            "mangledName": "$s7Infoset0A4ChatC6iosKeySSSgvpZ",
+            "moduleName": "Infoset",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChat(cm)iosKey",
+                "mangledName": "$s7Infoset0A4ChatC6iosKeySSSgvgZ",
+                "moduleName": "Infoset",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChat(cm)setIosKey:",
+                "mangledName": "$s7Infoset0A4ChatC6iosKeySSSgvsZ",
+                "moduleName": "Infoset",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Infoset0A4ChatC6iosKeySSSgvMZ",
+                "mangledName": "$s7Infoset0A4ChatC6iosKeySSSgvMZ",
+                "moduleName": "Infoset",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "color",
+            "printedName": "color",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChat(cpy)color",
+            "mangledName": "$s7Infoset0A4ChatC5colorSSSgvpZ",
+            "moduleName": "Infoset",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChat(cm)color",
+                "mangledName": "$s7Infoset0A4ChatC5colorSSSgvgZ",
+                "moduleName": "Infoset",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChat(cm)setColor:",
+                "mangledName": "$s7Infoset0A4ChatC5colorSSSgvsZ",
+                "moduleName": "Infoset",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Infoset0A4ChatC5colorSSSgvMZ",
+                "mangledName": "$s7Infoset0A4ChatC5colorSSSgvMZ",
+                "moduleName": "Infoset",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tags",
+            "printedName": "tags",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChat(cpy)tags",
+            "mangledName": "$s7Infoset0A4ChatC4tagsSSSgvpZ",
+            "moduleName": "Infoset",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChat(cm)tags",
+                "mangledName": "$s7Infoset0A4ChatC4tagsSSSgvgZ",
+                "moduleName": "Infoset",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChat(cm)setTags:",
+                "mangledName": "$s7Infoset0A4ChatC4tagsSSSgvsZ",
+                "moduleName": "Infoset",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Infoset0A4ChatC4tagsSSSgvMZ",
+                "mangledName": "$s7Infoset0A4ChatC4tagsSSSgvMZ",
+                "moduleName": "Infoset",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "visitor",
+            "printedName": "visitor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Infoset.InfosetChatVisitor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InfosetChatVisitor",
+                    "printedName": "Infoset.InfosetChatVisitor",
+                    "usr": "c:@M@Infoset@objc(cs)InfosetChatVisitor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChat(cpy)visitor",
+            "mangledName": "$s7Infoset0A4ChatC7visitorAA0aB7VisitorCSgvpZ",
+            "moduleName": "Infoset",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Infoset.InfosetChatVisitor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InfosetChatVisitor",
+                        "printedName": "Infoset.InfosetChatVisitor",
+                        "usr": "c:@M@Infoset@objc(cs)InfosetChatVisitor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChat(cm)visitor",
+                "mangledName": "$s7Infoset0A4ChatC7visitorAA0aB7VisitorCSgvgZ",
+                "moduleName": "Infoset",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Infoset.InfosetChatVisitor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InfosetChatVisitor",
+                        "printedName": "Infoset.InfosetChatVisitor",
+                        "usr": "c:@M@Infoset@objc(cs)InfosetChatVisitor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChat(cm)setVisitor:",
+                "mangledName": "$s7Infoset0A4ChatC7visitorAA0aB7VisitorCSgvsZ",
+                "moduleName": "Infoset",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Infoset0A4ChatC7visitorAA0aB7VisitorCSgvMZ",
+                "mangledName": "$s7Infoset0A4ChatC7visitorAA0aB7VisitorCSgvMZ",
+                "moduleName": "Infoset",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "Infoset.InfosetChatDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChat(cpy)delegate",
+            "mangledName": "$s7Infoset0A4ChatC8delegateAA0aB8Delegate_pSgvpZ",
+            "moduleName": "Infoset",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Infoset.InfosetChatDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InfosetChatDelegate",
+                        "printedName": "Infoset.InfosetChatDelegate",
+                        "usr": "c:@M@Infoset@objc(pl)InfosetChatDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChat(cm)delegate",
+                "mangledName": "$s7Infoset0A4ChatC8delegateAA0aB8Delegate_pSgvgZ",
+                "moduleName": "Infoset",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Infoset.InfosetChatDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InfosetChatDelegate",
+                        "printedName": "Infoset.InfosetChatDelegate",
+                        "usr": "c:@M@Infoset@objc(pl)InfosetChatDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChat(cm)setDelegate:",
+                "mangledName": "$s7Infoset0A4ChatC8delegateAA0aB8Delegate_pSgvsZ",
+                "moduleName": "Infoset",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Infoset0A4ChatC8delegateAA0aB8Delegate_pSgvMZ",
+                "mangledName": "$s7Infoset0A4ChatC8delegateAA0aB8Delegate_pSgvMZ",
+                "moduleName": "Infoset",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isChatPresented",
+            "printedName": "isChatPresented",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChat(cpy)isChatPresented",
+            "mangledName": "$s7Infoset0A4ChatC02isB9PresentedSbvpZ",
+            "moduleName": "Infoset",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChat(cm)isChatPresented",
+                "mangledName": "$s7Infoset0A4ChatC02isB9PresentedSbvgZ",
+                "moduleName": "Infoset",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unreadMessagesCount",
+            "printedName": "unreadMessagesCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChat(cpy)unreadMessagesCount",
+            "mangledName": "$s7Infoset0A4ChatC19unreadMessagesCountSivpZ",
+            "moduleName": "Infoset",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChat(cm)unreadMessagesCount",
+                "mangledName": "$s7Infoset0A4ChatC19unreadMessagesCountSivgZ",
+                "moduleName": "Infoset",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "presentChat",
+            "printedName": "presentChat(animated:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChat(cm)presentChatWithAnimated:completion:",
+            "mangledName": "$s7Infoset0A4ChatC07presentB08animated10completionySb_ySbcSgtFZ",
+            "moduleName": "Infoset",
+            "static": true,
+            "objc_name": "presentChatWithAnimated:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dismissChat",
+            "printedName": "dismissChat(animated:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChat(cm)dismissChatWithAnimated:completion:",
+            "mangledName": "$s7Infoset0A4ChatC07dismissB08animated10completionySb_ySbcSgtFZ",
+            "moduleName": "Infoset",
+            "static": true,
+            "objc_name": "dismissChatWithAnimated:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearSession",
+            "printedName": "clearSession()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChat(cm)clearSession",
+            "mangledName": "$s7Infoset0A4ChatC12clearSessionyyFZ",
+            "moduleName": "Infoset",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InfosetChat",
+                "printedName": "Infoset.InfosetChat",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChat"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChat(im)init",
+            "mangledName": "$s7Infoset0A4ChatCACycfc",
+            "moduleName": "Infoset",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Infoset@objc(cs)InfosetChat",
+        "mangledName": "$s7Infoset0A4ChatC",
+        "moduleName": "Infoset",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Infoset",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InfosetChatVisitor",
+        "printedName": "InfosetChatVisitor",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChatVisitor(py)id",
+            "mangledName": "$s7Infoset0A11ChatVisitorC2idSSSgvp",
+            "moduleName": "Infoset",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChatVisitor(im)id",
+                "mangledName": "$s7Infoset0A11ChatVisitorC2idSSSgvg",
+                "moduleName": "Infoset",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "firstName",
+            "printedName": "firstName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChatVisitor(py)firstName",
+            "mangledName": "$s7Infoset0A11ChatVisitorC9firstNameSSSgvp",
+            "moduleName": "Infoset",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChatVisitor(im)firstName",
+                "mangledName": "$s7Infoset0A11ChatVisitorC9firstNameSSSgvg",
+                "moduleName": "Infoset",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastName",
+            "printedName": "lastName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChatVisitor(py)lastName",
+            "mangledName": "$s7Infoset0A11ChatVisitorC8lastNameSSSgvp",
+            "moduleName": "Infoset",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChatVisitor(im)lastName",
+                "mangledName": "$s7Infoset0A11ChatVisitorC8lastNameSSSgvg",
+                "moduleName": "Infoset",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "email",
+            "printedName": "email",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChatVisitor(py)email",
+            "mangledName": "$s7Infoset0A11ChatVisitorC5emailSSSgvp",
+            "moduleName": "Infoset",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChatVisitor(im)email",
+                "mangledName": "$s7Infoset0A11ChatVisitorC5emailSSSgvg",
+                "moduleName": "Infoset",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "phone",
+            "printedName": "phone",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChatVisitor(py)phone",
+            "mangledName": "$s7Infoset0A11ChatVisitorC5phoneSSSgvp",
+            "moduleName": "Infoset",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChatVisitor(im)phone",
+                "mangledName": "$s7Infoset0A11ChatVisitorC5phoneSSSgvg",
+                "moduleName": "Infoset",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "photoUrl",
+            "printedName": "photoUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChatVisitor(py)photoUrl",
+            "mangledName": "$s7Infoset0A11ChatVisitorC8photoUrlSSSgvp",
+            "moduleName": "Infoset",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChatVisitor(im)photoUrl",
+                "mangledName": "$s7Infoset0A11ChatVisitorC8photoUrlSSSgvg",
+                "moduleName": "Infoset",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userHash",
+            "printedName": "userHash",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChatVisitor(py)userHash",
+            "mangledName": "$s7Infoset0A11ChatVisitorC8userHashSSSgvp",
+            "moduleName": "Infoset",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChatVisitor(im)userHash",
+                "mangledName": "$s7Infoset0A11ChatVisitorC8userHashSSSgvg",
+                "moduleName": "Infoset",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "createdAt",
+            "printedName": "createdAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChatVisitor(py)createdAt",
+            "mangledName": "$s7Infoset0A11ChatVisitorC9createdAtSSSgvp",
+            "moduleName": "Infoset",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChatVisitor(im)createdAt",
+                "mangledName": "$s7Infoset0A11ChatVisitorC9createdAtSSSgvg",
+                "moduleName": "Infoset",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "company",
+            "printedName": "company",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChatVisitor(py)company",
+            "mangledName": "$s7Infoset0A11ChatVisitorC7companySSSgvp",
+            "moduleName": "Infoset",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChatVisitor(im)company",
+                "mangledName": "$s7Infoset0A11ChatVisitorC7companySSSgvg",
+                "moduleName": "Infoset",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:firstName:lastName:email:phone:photoUrl:userHash:createdAt:company:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InfosetChatVisitor",
+                "printedName": "Infoset.InfosetChatVisitor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChatVisitor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChatVisitor(im)initWithId:firstName:lastName:email:phone:photoUrl:userHash:createdAt:company:",
+            "mangledName": "$s7Infoset0A11ChatVisitorC2id9firstName04lastF05email5phone8photoUrl8userHash9createdAt7companyACSSSg_A8Mtcfc",
+            "moduleName": "Infoset",
+            "objc_name": "initWithId:firstName:lastName:email:phone:photoUrl:userHash:createdAt:company:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InfosetChatVisitor",
+                "printedName": "Infoset.InfosetChatVisitor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChatVisitor"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChatVisitor(im)init",
+            "mangledName": "$s7Infoset0A11ChatVisitorCACycfc",
+            "moduleName": "Infoset",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Infoset@objc(cs)InfosetChatVisitor",
+        "mangledName": "$s7Infoset0A11ChatVisitorC",
+        "moduleName": "Infoset",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Infoset",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Infoset"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIImage",
+        "printedName": "UIImage",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(color:size:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "hasDefaultArg": true,
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So7UIImageC7InfosetE5color4sizeABSgSo7UIColorC_So6CGSizeVtcfc",
+            "mangledName": "$sSo7UIImageC7InfosetE5color4sizeABSgSo7UIColorC_So6CGSizeVtcfc",
+            "moduleName": "Infoset",
+            "declAttributes": [
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIImage",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIImage",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByImageLiteral",
+            "printedName": "_ExpressibleByImageLiteral",
+            "usr": "s:s26_ExpressibleByImageLiteralP",
+            "mangledName": "$ss26_ExpressibleByImageLiteralP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChatMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 128,
+      "length": 18,
+      "value": "\"Infoset.InfosetChatMessage\""
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "kind": "StringLiteral",
+      "offset": 340,
+      "length": 22,
+      "value": "\"icIosCallbackHandler\""
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 644,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "kind": "FloatLiteral",
+      "offset": 249,
+      "length": 4,
+      "value": "90.0"
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "kind": "FloatLiteral",
+      "offset": 256,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "kind": "FloatLiteral",
+      "offset": 270,
+      "length": 5,
+      "value": "105.0"
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "kind": "FloatLiteral",
+      "offset": 278,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "kind": "FloatLiteral",
+      "offset": 291,
+      "length": 5,
+      "value": "118.0"
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "kind": "FloatLiteral",
+      "offset": 299,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "kind": "FloatLiteral",
+      "offset": 313,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2793,
+      "length": 4,
+      "value": "14.0"
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4199,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "kind": "StringLiteral",
+      "offset": 2651,
+      "length": 11,
+      "value": "\"Infoset.CloseButton\""
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "kind": "StringLiteral",
+      "offset": 5252,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "kind": "FloatLiteral",
+      "offset": 7416,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "kind": "StringLiteral",
+      "offset": 6768,
+      "length": 12,
+      "value": "\"Infoset.ReloadButton\""
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7766,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7777,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8304,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "kind": "FloatLiteral",
+      "offset": 10282,
+      "length": 4,
+      "value": "60.0"
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10388,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10394,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10495,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10501,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10599,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10605,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10626,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10649,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "kind": "Array",
+      "offset": 583,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "kind": "BooleanLiteral",
+      "offset": 609,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/UnreadMessagesCounter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 182,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/UnreadMessagesCounter.swift",
+      "kind": "StringLiteral",
+      "offset": 229,
+      "length": 27,
+      "value": "\"Infoset_unreadMessagesKey\""
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/UnreadMessagesCounter.swift",
+      "kind": "StringLiteral",
+      "offset": 298,
+      "length": 25,
+      "value": "\"Infoset_readMessagesKey\""
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/KeyboardNotification.swift",
+      "kind": "StringLiteral",
+      "offset": 367,
+      "length": 20,
+      "value": "\"Infoset.KeyboardNotification\""
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetState.swift",
+      "kind": "StringLiteral",
+      "offset": 241,
+      "length": 23,
+      "value": "\"Infoset_chatOpenedKey\""
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2006,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2206,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChatVisitor.swift",
+      "kind": "StringLiteral",
+      "offset": 563,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChatVisitor.swift",
+      "kind": "StringLiteral",
+      "offset": 587,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChatVisitor.swift",
+      "kind": "StringLiteral",
+      "offset": 608,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChatVisitor.swift",
+      "kind": "StringLiteral",
+      "offset": 629,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChatVisitor.swift",
+      "kind": "StringLiteral",
+      "offset": 653,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChatVisitor.swift",
+      "kind": "StringLiteral",
+      "offset": 677,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChatVisitor.swift",
+      "kind": "StringLiteral",
+      "offset": 702,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChatVisitor.swift",
+      "kind": "StringLiteral",
+      "offset": 725,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChatVisitor.swift",
+      "kind": "StringLiteral",
+      "offset": 134,
+      "length": 18,
+      "value": "\"Infoset.InfosetChatVisitor\""
+    }
+  ]
+}

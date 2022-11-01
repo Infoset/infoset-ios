@@ -1,0 +1,11 @@
+framework module Infoset {
+  umbrella header "Infoset.h"
+
+  export *
+  module * { export * }
+}
+
+module Infoset.Swift {
+  header "Infoset-Swift.h"
+  requires objc
+}
