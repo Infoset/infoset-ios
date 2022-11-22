@@ -50,4 +50,28 @@
     [[UIApplication sharedApplication] openURL:URL];
 }
 
+- (void)roomOpenedWithRoomId:(int64_t)roomId {
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Room opened" message:@(roomId).stringValue preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:nil];
+    [alert addAction:cancelAction];
+
+    [self.window.rootViewController presentViewController:alert animated:YES completion:nil];
+}
+
+- (void)roomClosedWithRoomId:(int64_t)roomId {
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Room closed" message:@(roomId).stringValue preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:nil];
+    [alert addAction:cancelAction];
+
+    [self.window.rootViewController presentViewController:alert animated:YES completion:nil];
+}
+
+- (void)roomReopenedWithRoomId:(int64_t)roomId {
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Room reopened" message:@(roomId).stringValue preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:nil];
+    [alert addAction:cancelAction];
+
+    [self.window.rootViewController presentViewController:alert animated:YES completion:nil];
+}
+
 @end

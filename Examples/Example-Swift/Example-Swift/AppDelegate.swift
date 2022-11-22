@@ -50,5 +50,32 @@ class AppDelegate: UIResponder, UIApplicationDelegate, InfosetChatDelegate {
     func handle(URL: URL) {
         UIApplication.shared.openURL(URL)
     }
+    
+    func roomOpened(roomId: Int64) {
+        let alert = UIAlertController(title: "Room opened", message: String(roomId), preferredStyle: .alert)
+
+        let cancelAction = UIAlertAction(title: "OK", style: .cancel)
+        alert.addAction(cancelAction)
+
+        window?.rootViewController?.present(alert, animated: true, completion: nil)
+    }
+
+    func roomClosed(roomId: Int64) {
+        let alert = UIAlertController(title: "Room closed", message: String(roomId), preferredStyle: .alert)
+
+        let cancelAction = UIAlertAction(title: "OK", style: .cancel)
+        alert.addAction(cancelAction)
+
+        window?.rootViewController?.present(alert, animated: true, completion: nil)
+    }
+
+    func roomReopened(roomId: Int64) {
+        let alert = UIAlertController(title: "Room reopened", message: String(roomId), preferredStyle: .alert)
+
+        let cancelAction = UIAlertAction(title: "OK", style: .cancel)
+        alert.addAction(cancelAction)
+
+        window?.rootViewController?.present(alert, animated: true, completion: nil)
+    }
 }
 
