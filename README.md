@@ -160,6 +160,24 @@ func handle(URL: URL) {
 }
 ```
 
+### Subscribing room events
+
+You can subscribe to room events to be instantly informed about room status changes with roomId parameter. To handle room status changes, your class must implement `InfosetChatDelegate` protocol and set itself as `InfosetChat.delegate`.
+
+```swift
+    func roomOpened(roomId: Int64) {
+        // Do sth
+    }
+
+    func roomClosed(roomId: Int64) {
+        // Do sth
+    }
+
+    func roomReopened(roomId: Int64) {
+        // Do sth
+    }
+```
+
 ## Sample Apps
 
 Sample apps for both Swift and Objective-C can be found in the `Examples` folder.
