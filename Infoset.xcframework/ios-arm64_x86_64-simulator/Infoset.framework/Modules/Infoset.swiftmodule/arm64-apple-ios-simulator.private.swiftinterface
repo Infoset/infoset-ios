@@ -42,6 +42,10 @@ extension UIKit.UIImage {
     @objc get
     @objc set
   }
+  @objc public static var webviewUrl: Swift.String? {
+    @objc get
+    @objc set
+  }
   @objc public static var color: Swift.String? {
     @objc get
     @objc set

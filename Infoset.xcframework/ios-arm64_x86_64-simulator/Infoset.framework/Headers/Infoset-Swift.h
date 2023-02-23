@@ -268,6 +268,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nullable api
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nullable iosKey;)
 + (NSString * _Nullable)iosKey SWIFT_WARN_UNUSED_RESULT;
 + (void)setIosKey:(NSString * _Nullable)value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nullable webviewUrl;)
++ (NSString * _Nullable)webviewUrl SWIFT_WARN_UNUSED_RESULT;
++ (void)setWebviewUrl:(NSString * _Nullable)value;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nullable color;)
 + (NSString * _Nullable)color SWIFT_WARN_UNUSED_RESULT;
 + (void)setColor:(NSString * _Nullable)value;
@@ -617,6 +620,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nullable api
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nullable iosKey;)
 + (NSString * _Nullable)iosKey SWIFT_WARN_UNUSED_RESULT;
 + (void)setIosKey:(NSString * _Nullable)value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nullable webviewUrl;)
++ (NSString * _Nullable)webviewUrl SWIFT_WARN_UNUSED_RESULT;
++ (void)setWebviewUrl:(NSString * _Nullable)value;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nullable color;)
 + (NSString * _Nullable)color SWIFT_WARN_UNUSED_RESULT;
 + (void)setColor:(NSString * _Nullable)value;

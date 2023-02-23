@@ -1178,6 +1178,133 @@
           },
           {
             "kind": "Var",
+            "name": "webviewUrl",
+            "printedName": "webviewUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChat(cpy)webviewUrl",
+            "mangledName": "$s7Infoset0A4ChatC10webviewUrlSSSgvpZ",
+            "moduleName": "Infoset",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChat(cm)webviewUrl",
+                "mangledName": "$s7Infoset0A4ChatC10webviewUrlSSSgvgZ",
+                "moduleName": "Infoset",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChat(cm)setWebviewUrl:",
+                "mangledName": "$s7Infoset0A4ChatC10webviewUrlSSSgvsZ",
+                "moduleName": "Infoset",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Infoset0A4ChatC10webviewUrlSSSgvMZ",
+                "mangledName": "$s7Infoset0A4ChatC10webviewUrlSSSgvMZ",
+                "moduleName": "Infoset",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "color",
             "printedName": "color",
             "children": [
@@ -3264,14 +3391,14 @@
     {
       "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
       "kind": "BooleanLiteral",
-      "offset": 2006,
+      "offset": 2124,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
       "kind": "BooleanLiteral",
-      "offset": 2206,
+      "offset": 2324,
       "length": 4,
       "value": "true"
     },
