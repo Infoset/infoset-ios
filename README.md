@@ -135,7 +135,6 @@ You can subscribe to incoming messages and notify the user even if the chat wind
 ```swift
 class YOUR_CLASS_NAME : InfosetChatDelegate { // Your class need to implement InfosetChatDelegate protocol
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-    InfosetChat.webviewUrl = "YOUR_CHAT_URL" // optional
     InfosetChat.apiKey = "YOUR_WIDGET_API_KEY"
     InfosetChat.iosKey = "YOUR_WIDGET_IOS_KEY"
     InfosetChat.delegate = self // Set self as delegate
@@ -178,6 +177,16 @@ You can subscribe to room events to be instantly informed about room status chan
         // Do sth
     }
 ```
+
+### On-premise support
+
+If you are using on-premise version of Infoset, you should set the `InfosetChat.webviewUrl` to your on-premise URL.
+
+```swift
+InfosetChat.webviewUrl = "https://your-on-premise-dashboard-url/chat/open_chat.html"
+```
+
+You can contact us for more information.
 
 ## Sample Apps
 
