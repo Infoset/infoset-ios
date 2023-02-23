@@ -135,6 +135,7 @@ You can subscribe to incoming messages and notify the user even if the chat wind
 ```swift
 class YOUR_CLASS_NAME : InfosetChatDelegate { // Your class need to implement InfosetChatDelegate protocol
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    InfosetChat.webviewUrl = "YOUR_CHAT_URL" // optional
     InfosetChat.apiKey = "YOUR_WIDGET_API_KEY"
     InfosetChat.iosKey = "YOUR_WIDGET_IOS_KEY"
     InfosetChat.delegate = self // Set self as delegate
