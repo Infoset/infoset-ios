@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = 'Infoset'
-  s.version             = '1.4.0'
+  s.version             = '1.5.0'
   s.summary             = 'The Infoset iOS SDK, for integrating Infoset products into your iOS application.'
   s.license             = { :type => "./LICENSE", :file => 'LICENSE' }
   s.authors             = { 'Samed Düzçay' => 'samed@infoset.app', 'Onur Coşkun' => 'onur@infoset.app' }
