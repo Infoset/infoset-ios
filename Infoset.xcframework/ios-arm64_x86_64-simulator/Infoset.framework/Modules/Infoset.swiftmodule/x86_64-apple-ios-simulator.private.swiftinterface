@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target x86_64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Infoset
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
@@ -9,6 +9,7 @@ import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 @objc @_hasMissingDesignatedInitializers public class InfosetChatMessage : ObjectiveC.NSObject {
   @objc final public let id: Swift.String
   @objc final public let message: Swift.String
@@ -59,7 +60,7 @@ extension UIKit.UIImage {
     @objc get
     @objc set
   }
-  @objc weak public static var delegate: Infoset.InfosetChatDelegate? {
+  @objc weak public static var delegate: (any Infoset.InfosetChatDelegate)? {
     @objc get
     @objc set
   }
@@ -85,6 +86,6 @@ extension UIKit.UIImage {
   @objc final public let userHash: Swift.String?
   @objc final public let createdAt: Swift.String?
   @objc final public let company: Swift.String?
-  @objc public init(id: Swift.String?, firstName: Swift.String? = "", lastName: Swift.String? = "", email: Swift.String? = "", phone: Swift.String? = "", photoUrl: Swift.String? = "", userHash: Swift.String? = "", createdAt: Swift.String? = "", company: Swift.String? = "")
+  @objc public init(id: Swift.String? = "", firstName: Swift.String? = "", lastName: Swift.String? = "", email: Swift.String? = "", phone: Swift.String? = "", photoUrl: Swift.String? = "", userHash: Swift.String? = "", createdAt: Swift.String? = "", company: Swift.String? = "")
   @objc deinit
 }
