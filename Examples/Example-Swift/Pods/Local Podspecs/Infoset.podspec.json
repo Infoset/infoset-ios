@@ -1,6 +1,6 @@
 {
   "name": "Infoset",
-  "version": "1.4.0",
+  "version": "1.5.1",
   "summary": "The Infoset iOS SDK, for integrating Infoset products into your iOS application.",
   "license": {
     "type": "./LICENSE",
@@ -23,7 +23,7 @@
   "requires_arc": true,
   "source": {
     "git": "https://github.com/infoset/infoset-ios.git",
-    "tag": "1.4.0"
+    "tag": "1.5.1"
   },
   "platforms": {
     "ios": "10.0"
