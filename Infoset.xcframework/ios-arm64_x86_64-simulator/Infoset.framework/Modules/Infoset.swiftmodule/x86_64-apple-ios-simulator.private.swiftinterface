@@ -86,6 +86,7 @@ extension UIKit.UIImage {
   @objc final public let userHash: Swift.String?
   @objc final public let createdAt: Swift.String?
   @objc final public let company: Swift.String?
-  @objc public init(id: Swift.String? = "", firstName: Swift.String? = "", lastName: Swift.String? = "", email: Swift.String? = "", phone: Swift.String? = "", photoUrl: Swift.String? = "", userHash: Swift.String? = "", createdAt: Swift.String? = "", company: Swift.String? = "")
+  @objc final public let customFields: Swift.String?
+  @objc public init(id: Swift.String? = "", firstName: Swift.String? = "", lastName: Swift.String? = "", email: Swift.String? = "", phone: Swift.String? = "", photoUrl: Swift.String? = "", userHash: Swift.String? = "", createdAt: Swift.String? = "", company: Swift.String? = "", customFields: Swift.String? = "")
   @objc deinit
 }
