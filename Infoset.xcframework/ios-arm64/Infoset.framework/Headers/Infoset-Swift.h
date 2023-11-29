@@ -277,6 +277,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import Foundation;
 @import ObjectiveC;
 @import UIKit;
 #endif
@@ -384,7 +385,8 @@ SWIFT_CLASS("_TtC7Infoset18InfosetChatVisitor")
 @property (nonatomic, readonly, copy) NSString * _Nullable userHash;
 @property (nonatomic, readonly, copy) NSString * _Nullable createdAt;
 @property (nonatomic, readonly, copy) NSString * _Nullable company;
-- (nonnull instancetype)initWithId:(NSString * _Nullable)id firstName:(NSString * _Nullable)firstName lastName:(NSString * _Nullable)lastName email:(NSString * _Nullable)email phone:(NSString * _Nullable)phone photoUrl:(NSString * _Nullable)photoUrl userHash:(NSString * _Nullable)userHash createdAt:(NSString * _Nullable)createdAt company:(NSString * _Nullable)company OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, readonly, copy) NSDictionary<NSString *, NSString *> * _Nullable customFields;
+- (nonnull instancetype)initWithId:(NSString * _Nullable)id firstName:(NSString * _Nullable)firstName lastName:(NSString * _Nullable)lastName email:(NSString * _Nullable)email phone:(NSString * _Nullable)phone photoUrl:(NSString * _Nullable)photoUrl userHash:(NSString * _Nullable)userHash createdAt:(NSString * _Nullable)createdAt company:(NSString * _Nullable)company customFields:(NSDictionary<NSString *, NSString *> * _Nullable)customFields OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end

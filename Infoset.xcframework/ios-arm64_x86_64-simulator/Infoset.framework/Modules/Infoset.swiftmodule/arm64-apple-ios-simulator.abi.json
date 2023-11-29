@@ -2772,9 +2772,103 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "customFields",
+            "printedName": "customFields",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChatVisitor(py)customFields",
+            "mangledName": "$s7Infoset0A11ChatVisitorC12customFieldsSDyS2SGSgvp",
+            "moduleName": "Infoset",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Infoset@objc(cs)InfosetChatVisitor(im)customFields",
+                "mangledName": "$s7Infoset0A11ChatVisitorC12customFieldsSDyS2SGSgvg",
+                "moduleName": "Infoset",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(id:firstName:lastName:email:phone:photoUrl:userHash:createdAt:company:)",
+            "printedName": "init(id:firstName:lastName:email:phone:photoUrl:userHash:createdAt:company:customFields:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2916,13 +3010,42 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@Infoset@objc(cs)InfosetChatVisitor(im)initWithId:firstName:lastName:email:phone:photoUrl:userHash:createdAt:company:",
-            "mangledName": "$s7Infoset0A11ChatVisitorC2id9firstName04lastF05email5phone8photoUrl8userHash9createdAt7companyACSSSg_A8Mtcfc",
+            "usr": "c:@M@Infoset@objc(cs)InfosetChatVisitor(im)initWithId:firstName:lastName:email:phone:photoUrl:userHash:createdAt:company:customFields:",
+            "mangledName": "$s7Infoset0A11ChatVisitorC2id9firstName04lastF05email5phone8photoUrl8userHash9createdAt7company12customFieldsACSSSg_A8NSDyS2SGSgtcfc",
             "moduleName": "Infoset",
-            "objc_name": "initWithId:firstName:lastName:email:phone:photoUrl:userHash:createdAt:company:",
+            "objc_name": "initWithId:firstName:lastName:email:phone:photoUrl:userHash:createdAt:company:customFields:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -3177,2058 +3300,2079 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChatMessage.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetChatMessage.swift",
       "kind": "StringLiteral",
       "offset": 128,
       "length": 18,
       "value": "\"Infoset.InfosetChatMessage\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "StringLiteral",
       "offset": 340,
       "length": 22,
       "value": "\"icIosCallbackHandler\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "BooleanLiteral",
       "offset": 644,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "StringLiteral",
       "offset": 1173,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "StringLiteral",
       "offset": 1720,
       "length": 19,
       "value": "\"InfosetChatWidget\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "StringLiteral",
       "offset": 1749,
       "length": 4,
       "value": "\"js\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "StringLiteral",
       "offset": 1904,
       "length": 55,
       "value": "\"Exception while injecting InfosetChatWidget.js script\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "BooleanLiteral",
       "offset": 2089,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "FloatLiteral",
       "offset": 2499,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "FloatLiteral",
       "offset": 2553,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "BooleanLiteral",
       "offset": 2588,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "IntegerLiteral",
       "offset": 2708,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "IntegerLiteral",
       "offset": 4268,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "IntegerLiteral",
       "offset": 4497,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "FloatLiteral",
       "offset": 4561,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "IntegerLiteral",
       "offset": 4665,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "BooleanLiteral",
       "offset": 4831,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "BooleanLiteral",
       "offset": 5117,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "IntegerLiteral",
       "offset": 5155,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "FloatLiteral",
       "offset": 5317,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "IntegerLiteral",
       "offset": 5356,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "IntegerLiteral",
       "offset": 5410,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "IntegerLiteral",
       "offset": 5463,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "Array",
       "offset": 5502,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "BooleanLiteral",
       "offset": 5673,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "BooleanLiteral",
       "offset": 5915,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "IntegerLiteral",
       "offset": 5990,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "IntegerLiteral",
       "offset": 6154,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "BooleanLiteral",
       "offset": 6252,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "BooleanLiteral",
       "offset": 6588,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "FloatLiteral",
       "offset": 6634,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "IntegerLiteral",
       "offset": 6673,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "BooleanLiteral",
       "offset": 6896,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "StringLiteral",
       "offset": 7186,
       "length": 9,
       "value": "\"infoset\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "IntegerLiteral",
       "offset": 7716,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "IntegerLiteral",
       "offset": 7932,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "IntegerLiteral",
       "offset": 8357,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "IntegerLiteral",
       "offset": 8368,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "IntegerLiteral",
       "offset": 8378,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "FloatLiteral",
       "offset": 9147,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "StringLiteral",
       "offset": 9417,
       "length": 29,
       "value": "\"Configuration not provided.\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "StringLiteral",
       "offset": 9874,
       "length": 21,
       "value": "\"navigator.userAgent\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "StringLiteral",
       "offset": 10121,
       "length": 27,
-      "value": "\" WebView_Widget_iOS\/1.5.1\""
+      "value": "\" WebView_Widget_iOS\/1.6.0\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "StringLiteral",
       "offset": 10683,
       "length": 20,
       "value": "\"error: Invalid url\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "StringLiteral",
       "offset": 10763,
       "length": 13,
       "value": "\"Invalid url\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "FloatLiteral",
       "offset": 10970,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "FloatLiteral",
       "offset": 11078,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "BooleanLiteral",
       "offset": 11233,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "StringLiteral",
       "offset": 11700,
       "length": 29,
       "value": "\"Did fail navigation error: \""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "FloatLiteral",
       "offset": 12637,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "IntegerLiteral",
       "offset": 12713,
       "length": 4,
       "value": "-999"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "IntegerLiteral",
       "offset": 12961,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "FloatLiteral",
       "offset": 13069,
       "length": 3,
       "value": "0.3"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "FloatLiteral",
       "offset": 13104,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "IntegerLiteral",
       "offset": 13254,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/ChatView.swift",
       "kind": "BooleanLiteral",
       "offset": 14104,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 249,
       "length": 4,
       "value": "90.0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 256,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 270,
       "length": 5,
       "value": "105.0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 278,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 291,
       "length": 5,
       "value": "118.0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 299,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 313,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 869,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "StringLiteral",
       "offset": 1026,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 1269,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 1358,
       "length": 2,
       "value": "40"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 1391,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 1433,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 1440,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 1551,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 1654,
       "length": 2,
       "value": "44"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 1659,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 1666,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 1677,
       "length": 2,
       "value": "44"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 1689,
       "length": 2,
       "value": "44"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 1881,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 1929,
       "length": 3,
       "value": "0.3"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 1941,
       "length": 3,
       "value": "3.0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "Array",
       "offset": 1955,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 2010,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 2390,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 2793,
       "length": 4,
       "value": "14.0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 2954,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 2961,
       "length": 4,
       "value": "1.41"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 3013,
       "length": 5,
       "value": "12.59"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 3023,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 3072,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 3078,
       "length": 4,
       "value": "5.59"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 3130,
       "length": 4,
       "value": "1.41"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 3139,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 3188,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 3194,
       "length": 4,
       "value": "1.41"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 3246,
       "length": 4,
       "value": "5.59"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 3255,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 3304,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 3310,
       "length": 5,
       "value": "12.59"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 3363,
       "length": 4,
       "value": "1.41"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 3372,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 3422,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 3428,
       "length": 4,
       "value": "8.41"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 3480,
       "length": 5,
       "value": "12.59"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 3490,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 3540,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 3547,
       "length": 5,
       "value": "12.59"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 3600,
       "length": 4,
       "value": "8.41"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 3609,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 3658,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 3665,
       "length": 4,
       "value": "1.41"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "BooleanLiteral",
       "offset": 3746,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "StringLiteral",
       "offset": 3989,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 4199,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 4413,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 4419,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 4429,
       "length": 2,
       "value": "44"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 4441,
       "length": 2,
       "value": "44"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 4677,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 4707,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "StringLiteral",
       "offset": 2651,
       "length": 11,
       "value": "\"Infoset.CloseButton\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "StringLiteral",
       "offset": 5252,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 5505,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 5632,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "StringLiteral",
       "offset": 5659,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "StringLiteral",
       "offset": 5806,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 6102,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 6110,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 6289,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 6316,
       "length": 2,
       "value": "44"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 6707,
       "length": 2,
       "value": "44"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "StringLiteral",
       "offset": 6872,
       "length": 8,
       "value": "\"Reload\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 7056,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 7086,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "StringLiteral",
       "offset": 7209,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 7416,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 7650,
       "length": 3,
       "value": "-14"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 7659,
       "length": 2,
       "value": "-6"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "StringLiteral",
       "offset": 6768,
       "length": 12,
       "value": "\"Infoset.ReloadButton\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 7766,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 7777,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "BooleanLiteral",
       "offset": 7894,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 7901,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "BooleanLiteral",
       "offset": 8304,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "StringLiteral",
       "offset": 8552,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 8756,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 8762,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 8771,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 8781,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 8793,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "StringLiteral",
       "offset": 8908,
       "length": 19,
       "value": "\"rotationAnimation\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "BooleanLiteral",
       "offset": 8995,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "StringLiteral",
       "offset": 9067,
       "length": 20,
       "value": "\"transform.rotation\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 9122,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 9173,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "BooleanLiteral",
       "offset": 9215,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "StringLiteral",
       "offset": 9352,
       "length": 19,
       "value": "\"rotationAnimation\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "BooleanLiteral",
       "offset": 9682,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 10282,
       "length": 4,
       "value": "60.0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 10388,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 10394,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 10495,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 10501,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 10599,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 10605,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 10626,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 10649,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "StringLiteral",
       "offset": 10920,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 11758,
       "length": 5,
       "value": "0.392"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 11772,
       "length": 5,
       "value": "0.439"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 11785,
       "length": 5,
       "value": "0.498"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 11799,
       "length": 5,
       "value": "1.000"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 11969,
       "length": 5,
       "value": "0.824"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 11983,
       "length": 5,
       "value": "0.855"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 11996,
       "length": 5,
       "value": "0.890"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 12010,
       "length": 5,
       "value": "1.000"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "FloatLiteral",
       "offset": 12258,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 12307,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 12784,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 12790,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 13023,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 13050,
       "length": 3,
       "value": "-45"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 13067,
       "length": 3,
       "value": "180"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 13094,
       "length": 4,
       "value": "-135"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "IntegerLiteral",
       "offset": 13112,
       "length": 3,
       "value": "180"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/LoadingView.swift",
       "kind": "BooleanLiteral",
       "offset": 13140,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "Array",
       "offset": 631,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "BooleanLiteral",
       "offset": 657,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 987,
       "length": 13,
       "value": "\"messageType\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "BooleanLiteral",
       "offset": 1128,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 1168,
       "length": 12,
       "value": "\"newMessage\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 1223,
       "length": 6,
       "value": "\"data\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 1296,
       "length": 38,
       "value": "\"'data' key not valid in 'newMessage'\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 1475,
       "length": 11,
       "value": "\"messageId\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 1541,
       "length": 48,
       "value": "\"'data.messageId' key not valid in 'newMessage'\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 1725,
       "length": 9,
       "value": "\"message\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 1783,
       "length": 46,
       "value": "\"'data.message' key not valid in 'newMessage'\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 1954,
       "length": 11,
       "value": "\"timestamp\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 2022,
       "length": 43,
       "value": "\"'timestamp' key not valid in 'newMessage'\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 2210,
       "length": 8,
       "value": "\"author\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 2287,
       "length": 40,
       "value": "\"'author' key not valid in 'newMessage'\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 2487,
       "length": 10,
       "value": "\"userName\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 2553,
       "length": 49,
       "value": "\"'author.userName' key not valid in 'newMessage'\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 2749,
       "length": 8,
       "value": "\"avatar\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 2809,
       "length": 47,
       "value": "\"'author.avatar' key not valid in 'newMessage'\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "IntegerLiteral",
       "offset": 3094,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 3266,
       "length": 9,
       "value": "\"uiReady\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 3350,
       "length": 12,
       "value": "\"roomOpened\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 3405,
       "length": 6,
       "value": "\"data\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 3478,
       "length": 38,
       "value": "\"'data' key not valid in 'roomOpened'\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 3654,
       "length": 8,
       "value": "\"roomId\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 3713,
       "length": 44,
       "value": "\"'data.roomId' key not valid in roomOpened'\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 3924,
       "length": 12,
       "value": "\"roomClosed\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 3979,
       "length": 6,
       "value": "\"data\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 4052,
       "length": 38,
       "value": "\"'data' key not valid in 'roomClosed'\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 4228,
       "length": 8,
       "value": "\"roomId\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 4287,
       "length": 45,
       "value": "\"'data.roomId' key not valid in 'roomClosed'\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 4499,
       "length": 14,
       "value": "\"roomReopened\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 4556,
       "length": 6,
       "value": "\"data\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 4629,
       "length": 40,
       "value": "\"'data' key not valid in 'roomReopened'\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 4807,
       "length": 8,
       "value": "\"roomId\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 4866,
       "length": 47,
       "value": "\"'data.roomId' key not valid in 'roomReopened'\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 5082,
       "length": 16,
       "value": "\"hideChatWindow\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 5173,
       "length": 22,
       "value": "\"onDownloadTranscript\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 5266,
       "length": 6,
       "value": "\"data\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 5339,
       "length": 48,
       "value": "\"'data' key not valid in 'onDownloadTranscript'\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 5529,
       "length": 12,
       "value": "\"transcript\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 5597,
       "length": 59,
       "value": "\"'data.transcript' key not valid in 'onDownloadTranscript'\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 5849,
       "length": 7,
       "value": "\"error\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 5899,
       "length": 6,
       "value": "\"data\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 5972,
       "length": 41,
       "value": "\"Error while loading Infoset chat widget\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 6190,
       "length": 9,
       "value": "\"message\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 6321,
       "length": 43,
       "value": "\"Error while loading Infoset chat widget: \""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 6446,
       "length": 37,
       "value": "\"WebViewBridge unknown messageType: \""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 6583,
       "length": 32,
       "value": "\"InfosetChatWidget_emitFocus();\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 6677,
       "length": 31,
       "value": "\"InfosetChatWidget_emitBlur();\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 7029,
       "length": 75,
       "value": "\"Sending message to iOS web bridge error: '\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 7080,
       "length": 12,
       "value": "\"' message: '\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/WebViewBridge.swift",
       "kind": "StringLiteral",
       "offset": 7102,
       "length": 3,
       "value": "\"'\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/UnreadMessagesCounter.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/UnreadMessagesCounter.swift",
       "kind": "IntegerLiteral",
       "offset": 182,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/UnreadMessagesCounter.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/UnreadMessagesCounter.swift",
       "kind": "StringLiteral",
       "offset": 229,
       "length": 27,
       "value": "\"Infoset_unreadMessagesKey\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/UnreadMessagesCounter.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/UnreadMessagesCounter.swift",
       "kind": "StringLiteral",
       "offset": 298,
       "length": 25,
       "value": "\"Infoset_readMessagesKey\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/UnreadMessagesCounter.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/UnreadMessagesCounter.swift",
       "kind": "Array",
       "offset": 505,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/UnreadMessagesCounter.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/UnreadMessagesCounter.swift",
       "kind": "BooleanLiteral",
       "offset": 1634,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/UnreadMessagesCounter.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/UnreadMessagesCounter.swift",
       "kind": "BooleanLiteral",
       "offset": 1720,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/UnreadMessagesCounter.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/UnreadMessagesCounter.swift",
       "kind": "BooleanLiteral",
       "offset": 1891,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 218,
+      "offset": 392,
       "length": 45,
-      "value": "\"https:\/\/cdn.infoset.app\/chat\/open_chat.html\""
+      "value": "\"Error encoding dictionary to JSON: \""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 414,
-      "length": 10,
-      "value": "\"platform\""
-    },
-    {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 433,
-      "length": 5,
-      "value": "\"ios\""
-    },
-    {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 468,
-      "length": 8,
-      "value": "\"apiKey\""
-    },
-    {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 535,
-      "length": 8,
-      "value": "\"iosKey\""
-    },
-    {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 602,
-      "length": 6,
-      "value": "\"tags\""
-    },
-    {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 665,
-      "length": 7,
-      "value": "\"color\""
-    },
-    {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 730,
-      "length": 13,
-      "value": "\"visitor[id]\""
-    },
-    {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 807,
-      "length": 20,
-      "value": "\"visitor[firstName]\""
-    },
-    {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 898,
-      "length": 19,
-      "value": "\"visitor[lastName]\""
-    },
-    {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 987,
-      "length": 16,
-      "value": "\"visitor[email]\""
-    },
-    {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 1070,
-      "length": 16,
-      "value": "\"visitor[phone]\""
-    },
-    {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 1153,
-      "length": 19,
-      "value": "\"visitor[photoUrl]\""
-    },
-    {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 1242,
-      "length": 19,
-      "value": "\"visitor[userHash]\""
-    },
-    {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 1331,
-      "length": 20,
-      "value": "\"visitor[createdAt]\""
-    },
-    {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 1422,
-      "length": 18,
-      "value": "\"visitor[company]\""
-    },
-    {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 1531,
+      "offset": 436,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/KeyboardNotification.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 588,
+      "length": 45,
+      "value": "\"https:\/\/cdn.infoset.app\/chat\/open_chat.html\""
+    },
+    {
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 784,
+      "length": 10,
+      "value": "\"platform\""
+    },
+    {
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 803,
+      "length": 5,
+      "value": "\"ios\""
+    },
+    {
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 838,
+      "length": 8,
+      "value": "\"apiKey\""
+    },
+    {
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 905,
+      "length": 8,
+      "value": "\"iosKey\""
+    },
+    {
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 972,
+      "length": 6,
+      "value": "\"tags\""
+    },
+    {
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1035,
+      "length": 7,
+      "value": "\"color\""
+    },
+    {
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1100,
+      "length": 13,
+      "value": "\"visitor[id]\""
+    },
+    {
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1177,
+      "length": 20,
+      "value": "\"visitor[firstName]\""
+    },
+    {
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1268,
+      "length": 19,
+      "value": "\"visitor[lastName]\""
+    },
+    {
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1357,
+      "length": 16,
+      "value": "\"visitor[email]\""
+    },
+    {
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1440,
+      "length": 16,
+      "value": "\"visitor[phone]\""
+    },
+    {
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1523,
+      "length": 19,
+      "value": "\"visitor[photoUrl]\""
+    },
+    {
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1612,
+      "length": 19,
+      "value": "\"visitor[userHash]\""
+    },
+    {
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1701,
+      "length": 20,
+      "value": "\"visitor[createdAt]\""
+    },
+    {
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1792,
+      "length": 18,
+      "value": "\"visitor[company]\""
+    },
+    {
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1879,
+      "length": 23,
+      "value": "\"visitor[customFields]\""
+    },
+    {
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/URLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 2014,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/KeyboardNotification.swift",
       "kind": "FloatLiteral",
       "offset": 1698,
       "length": 4,
       "value": "0.25"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/KeyboardNotification.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/KeyboardNotification.swift",
       "kind": "StringLiteral",
       "offset": 367,
       "length": 20,
       "value": "\"Infoset.KeyboardNotification\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetState.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetState.swift",
       "kind": "StringLiteral",
       "offset": 241,
       "length": 23,
       "value": "\"Infoset_chatOpenedKey\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetState.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetState.swift",
       "kind": "BooleanLiteral",
       "offset": 462,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
       "kind": "BooleanLiteral",
       "offset": 2187,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
       "kind": "BooleanLiteral",
       "offset": 2387,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
       "kind": "StringLiteral",
       "offset": 2926,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
       "kind": "IntegerLiteral",
       "offset": 3788,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
       "kind": "BooleanLiteral",
       "offset": 5433,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
       "kind": "StringLiteral",
       "offset": 5883,
       "length": 13,
       "value": "\"Transcript-\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
       "kind": "StringLiteral",
       "offset": 5943,
       "length": 6,
       "value": "\".txt\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
       "kind": "StringLiteral",
       "offset": 6090,
       "length": 28,
       "value": "\"File created successfully.\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
       "kind": "StringLiteral",
       "offset": 6653,
       "length": 43,
       "value": "\"File couldn't removed from temp directory\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
       "kind": "BooleanLiteral",
       "offset": 6807,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
       "kind": "StringLiteral",
       "offset": 6894,
       "length": 19,
       "value": "\"File not created.\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
       "kind": "BooleanLiteral",
       "offset": 7214,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
       "kind": "Dictionary",
       "offset": 7804,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetChat.swift",
       "kind": "BooleanLiteral",
       "offset": 8258,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChatVisitor.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetChatVisitor.swift",
       "kind": "StringLiteral",
-      "offset": 543,
+      "offset": 596,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChatVisitor.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetChatVisitor.swift",
       "kind": "StringLiteral",
-      "offset": 568,
+      "offset": 621,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChatVisitor.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetChatVisitor.swift",
       "kind": "StringLiteral",
-      "offset": 592,
+      "offset": 645,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChatVisitor.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetChatVisitor.swift",
       "kind": "StringLiteral",
-      "offset": 613,
+      "offset": 666,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChatVisitor.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetChatVisitor.swift",
       "kind": "StringLiteral",
-      "offset": 634,
+      "offset": 687,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChatVisitor.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetChatVisitor.swift",
       "kind": "StringLiteral",
-      "offset": 658,
+      "offset": 711,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChatVisitor.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetChatVisitor.swift",
       "kind": "StringLiteral",
-      "offset": 682,
+      "offset": 735,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChatVisitor.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetChatVisitor.swift",
       "kind": "StringLiteral",
-      "offset": 707,
+      "offset": 760,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChatVisitor.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetChatVisitor.swift",
       "kind": "StringLiteral",
-      "offset": 730,
+      "offset": 783,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetChatVisitor.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetChatVisitor.swift",
       "kind": "StringLiteral",
       "offset": 134,
       "length": 18,
       "value": "\"Infoset.InfosetChatVisitor\""
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetOverlayViewController.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetOverlayViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1187,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetOverlayViewController.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetOverlayViewController.swift",
       "kind": "FloatLiteral",
       "offset": 1426,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetOverlayViewController.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetOverlayViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1493,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetOverlayViewController.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetOverlayViewController.swift",
       "kind": "FloatLiteral",
       "offset": 2242,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/samedduzcay\/Infoset\/infoset-ios-src\/Sources\/InfosetOverlayViewController.swift",
+      "filePath": "\/Users\/onurcoskun\/Infoset\/infoset-ios-src\/Sources\/InfosetOverlayViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2254,
       "length": 1,
