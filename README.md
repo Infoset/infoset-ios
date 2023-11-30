@@ -12,7 +12,7 @@ Infoset iOS SDK allows you to integrate [Infoset Chat](https://infoset.app) with
 
 ## Requirements
 
-- iOS 10.0+
+- iOS 12.0+
 - Xcode 8.0+
 
 ## Installation
@@ -41,13 +41,13 @@ You can integrate Infoset iOS SDK into your project manually without using a dep
 
 1. Download [Infoset iOS SDK](https://github.com/infoset/infoset-ios/archive/master.zip) and extract the zip.
 2. Drag `Infoset.xcframework` into your project.  
-<img width="255" alt="" src="https://user-images.githubusercontent.com/13895224/94475518-d9e21180-01d7-11eb-8820-00123839d275.png">
+   <img width="255" alt="" src="https://user-images.githubusercontent.com/13895224/94475518-d9e21180-01d7-11eb-8820-00123839d275.png">
 
 Make sure "Copy items if needed" is selected and click Finish.  
 <img width="600" alt="" src="https://user-images.githubusercontent.com/13895224/94475576-f0886880-01d7-11eb-95b9-ae6b9a708660.png">
 
 3. In the target settings for your app, set the Infoset.xcframework to “Embed & Sign”. This can be found in the “Frameworks, Libraries, and Embedded Content” section of the “General” tab.
-<img width="600" alt="" src="https://user-images.githubusercontent.com/13895224/94476104-afdd1f00-01d8-11eb-8503-a07275754054.png">
+   <img width="600" alt="" src="https://user-images.githubusercontent.com/13895224/94476104-afdd1f00-01d8-11eb-8503-a07275754054.png">
 
 4. Create a new "Run Script Phase" in your app’s target’s "Build Phases" and paste the following snippet in the script text field:
 
@@ -85,6 +85,7 @@ InfosetChat.presentChat()
 ```
 
 Chat widget will be dismissed when the user clicks the dismiss button. You can dismiss it programmatically as well:
+
 ```swift
 InfosetChat.dismissChat()
 ```

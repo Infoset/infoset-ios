@@ -1,6 +1,6 @@
 {
   "name": "Infoset",
-  "version": "1.5.1",
+  "version": "1.6.1",
   "summary": "The Infoset iOS SDK, for integrating Infoset products into your iOS application.",
   "license": {
     "type": "./LICENSE",
@@ -23,10 +23,10 @@
   "requires_arc": true,
   "source": {
     "git": "https://github.com/infoset/infoset-ios.git",
-    "tag": "1.5.1"
+    "tag": "1.6.1"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "12.0"
   },
   "preserve_paths": "Infoset.xcframework",
   "vendored_frameworks": "Infoset.xcframework"
